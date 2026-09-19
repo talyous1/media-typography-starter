@@ -1,3 +1,5 @@
-One media decision I did was to use srcset and sizes on the hero image with 480, 800, and 1200px versions. This allows phones to download a smaller file and bigger screens to still have a sharp image.
+One media decision I made was to use srcset and sizes on the hero image with 480, 800, and 1200px versions. This allows phones to download a smaller file and bigger screens to still have a sharp image.
 
-One typography decision I made was to create font size tokens using clamp()
+One typography decision I made was to create font size tokens using clamp(). This allows text to scale smoothly between different viewport sizes. Because of the use of rem values, the text still grows when a user zooms in.
+
+One layout-shift prevention decision I made was to add width and height values to the image and an aspect-ratio: 16 / 9 to the video frame. This allows the browser to save the right amount of space before the media loads, preventing the page from jumping around on a slow connection.
