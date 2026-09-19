@@ -28,8 +28,13 @@
       <figure class="hero-media">
         <img
           src="assets/garden-800.jpg"
-          srcse="assets/garden-480.jpg 480w>
-        <figcaption>Replace this placeholder with responsive image markup and real asset notes.</figcaption>
+          srcset="assets/garden-480.jpg 480w,
+                  assets/garden-800.jpg 800w,
+                  assets/garden-1200.jpg 1200w"
+          sizes="(min-width: 56rem) 50vw, 100vw"
+          width="1200" height="800"
+          alt="Man tending to outdoor garden">
+        <figcaption>The original and used format for this image is jpg. The original size for this image has a width of 5404. It has been resized to the widths 480, 800, and 1200 to fit different screen sizes. The source is Unsplash, Priscilla Du Preez. This image is informational.</figcaption>
       </figure>
     </section>
 
