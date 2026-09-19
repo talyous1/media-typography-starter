@@ -27,6 +27,8 @@
     --space-4: 1rem;
     --space-6: 1.5rem;
     --space-8: 2rem;
+
+    --heading-line-height: 1.1;
   }
 
   body {
@@ -47,7 +49,7 @@
   h1,
   h2,
   h3 {
-    line-height: 1.1;
+    line-height: var(--heading-line-height);
   }
 }
 
