@@ -1,0 +1,3 @@
+One media decision I did was to use srcset and sizes on the hero image with 480, 800, and 1200px versions. This allows phones to download a smaller file and bigger screens to still have a sharp image.
+
+One typography decision I made was to create font size tokens using clamp()
